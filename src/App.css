@@ -1,0 +1,216 @@
+.App {
+  text-align: center;
+  margin: 20px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/*
+.MuiChip-root-1 {
+  color: rgba(0, 0, 0, 0.87);
+  height: 32px;
+  cursor: default;
+  border: none;
+  display: inline-flex;
+  outline: none;
+  padding: 0;
+  font-size: 0.8125rem;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  align-items: center;
+  white-space: nowrap;
+  border-radius: 16px;
+  vertical-align: middle;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #e0e0e0;
+}
+
+.MuiChip-label-20 {
+  cursor: inherit;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  white-space: nowrap;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.MuiChip-root-48 {
+  color: rgba(0, 0, 0, 0.87);
+  height: 32px;
+  cursor: default;
+  border: none;
+  display: inline-flex;
+  outline: none;
+  padding: 0;
+  font-size: 0.8125rem;
+  transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  box-sizing: border-box;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  align-items: center;
+  white-space: nowrap;
+  border-radius: 16px;
+  vertical-align: middle;
+  justify-content: center;
+  text-decoration: none;
+  background-color: #e0e0e0;
+}
+.MuiChip-colorPrimary-49 {
+  color: #fff;
+  background-color: #3f51b5;
+}
+.MuiChip-colorSecondary-50 {
+  color: #fff;
+  background-color: #f50057;
+}
+.MuiChip-clickable-51 {
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiChip-clickable-51:hover, .MuiChip-clickable-51:focus {
+  background-color: rgb(206, 206, 206);
+}
+.MuiChip-clickable-51:active {
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  background-color: rgb(197, 197, 197);
+}
+.MuiChip-clickableColorPrimary-52:hover, .MuiChip-clickableColorPrimary-52:focus {
+  background-color: rgb(78, 94, 186);
+}
+.MuiChip-clickableColorPrimary-52:active {
+  background-color: rgb(86, 101, 189);
+}
+.MuiChip-clickableColorSecondary-53:hover, .MuiChip-clickableColorSecondary-53:focus {
+  background-color: rgb(245, 20, 100);
+}
+.MuiChip-clickableColorSecondary-53:active {
+  background-color: rgb(246, 30, 107);
+}
+.MuiChip-deletable-54:focus {
+  background-color: rgb(206, 206, 206);
+}
+.MuiChip-deletableColorPrimary-55:focus {
+  background-color: rgb(101, 115, 195);
+}
+.MuiChip-deletableColorSecondary-56:focus {
+  background-color: rgb(247, 51, 120);
+}
+.MuiChip-outlined-57 {
+  border: 1px solid rgba(0, 0, 0, 0.23);
+  background-color: transparent;
+}
+.MuiChip-clickable-51.MuiChip-outlined-57:hover, .MuiChip-clickable-51.MuiChip-outlined-57:focus, .MuiChip-deletable-54.MuiChip-outlined-57:focus {
+  background-color: rgba(0, 0, 0, 0.08);
+}
+.MuiChip-outlined-57 .MuiChip-avatar-60 {
+  margin-left: -1px;
+}
+.MuiChip-outlinedPrimary-58 {
+  color: #3f51b5;
+  border: 1px solid #3f51b5;
+}
+.MuiChip-clickable-51.MuiChip-outlinedPrimary-58:hover, .MuiChip-clickable-51.MuiChip-outlinedPrimary-58:focus, .MuiChip-deletable-54.MuiChip-outlinedPrimary-58:focus {
+  background-color: rgba(63, 81, 181, 0.08);
+}
+.MuiChip-outlinedSecondary-59 {
+  color: #f50057;
+  border: 1px solid #f50057;
+}
+.MuiChip-clickable-51.MuiChip-outlinedSecondary-59:hover, .MuiChip-clickable-51.MuiChip-outlinedSecondary-59:focus, .MuiChip-deletable-54.MuiChip-outlinedSecondary-59:focus {
+  background-color: rgba(245, 0, 87, 0.08);
+}
+.MuiChip-avatar-60 {
+  width: 32px;
+  color: #616161;
+  height: 32px;
+  font-size: 1rem;
+  margin-right: -4px;
+}
+.MuiChip-avatarColorPrimary-61 {
+  color: #fff;
+  background-color: #303f9f;
+}
+.MuiChip-avatarColorSecondary-62 {
+  color: #fff;
+  background-color: #c51162;
+}
+.MuiChip-avatarChildren-63 {
+  width: 19px;
+  height: 19px;
+}
+.MuiChip-icon-64 {
+  color: #616161;
+  margin-left: 4px;
+  margin-right: -8px;
+}
+.MuiChip-iconColorPrimary-65 {
+  color: inherit;
+}
+.MuiChip-iconColorSecondary-66 {
+  color: inherit;
+}
+.MuiChip-label-67 {
+  cursor: inherit;
+  display: flex;
+  align-items: center;
+  user-select: none;
+  white-space: nowrap;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.MuiChip-deleteIcon-68 {
+  color: rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  height: auto;
+  margin: 0 4px 0 -8px;
+  -webkit-tap-highlight-color: transparent;
+}
+.MuiChip-deleteIcon-68:hover {
+  color: rgba(0, 0, 0, 0.4);
+}
+.MuiChip-deleteIconColorPrimary-69 {
+  color: rgba(255, 255, 255, 0.7);
+}
+.MuiChip-deleteIconColorPrimary-69:hover, .MuiChip-deleteIconColorPrimary-69:active {
+  color: #fff;
+}
+.MuiChip-deleteIconColorSecondary-70 {
+  color: rgba(255, 255, 255, 0.7);
+}
+.MuiChip-deleteIconColorSecondary-70:hover, .MuiChip-deleteIconColorSecondary-70:active {
+  color: #fff;
+}
+.MuiChip-deleteIconOutlinedColorPrimary-71 {
+  color: rgba(63, 81, 181, 0.7);
+}
+.MuiChip-deleteIconOutlinedColorPrimary-71:hover, .MuiChip-deleteIconOutlinedColorPrimary-71:active {
+  color: #3f51b5;
+}
+.MuiChip-deleteIconOutlinedColorSecondary-72 {
+  color: rgba(245, 0, 87, 0.7);
+}
+.MuiChip-deleteIconOutlinedColorSecondary-72:hover, .MuiChip-deleteIconOutlinedColorSecondary-72:active {
+  color: #f50057;
+}
+*/
